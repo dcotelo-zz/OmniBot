@@ -15,6 +15,6 @@ def Process(message):
     elif message.text == "/comandos" :
       bot.reply_to(message, u"comandos disponibles /quien /ayuda /comandos")
     elif message.text == "/ayuda":
-      bot.reply_to(message, u"Bot troll official H&B, originalmente destinado a salvaguardar los links compartidos. La leyenda cuenta que adquirio vida pripia y comparte cosas ya discutidas en GG solo para molestar a Enrique")
+      bot.reply_to(message, u"Bot troll oficial H&B, originalmente destinado a salvaguardar los links compartidos. La leyenda cuenta que adquirió vida propia y comparte cosas ya discutidas en GG solo para molestar a Enrique. comandos disponibles /quien /ayuda /comandos")
 bot.polling()
 
